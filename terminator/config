@@ -1,0 +1,62 @@
+[global_config]
+  handle_size = 4
+  extra_styling = False
+  title_transmit_fg_color = "#2E3440"
+  title_transmit_bg_color = "#88C0D0"
+  title_receive_fg_color = "#2E3440"
+  title_receive_bg_color = "#8FBCBB"
+  title_inactive_fg_color = "#D8DEE9"
+  title_inactive_bg_color = "#4C566A"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
+[keybindings]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    scrollback_infinite = True
+  [[Aci]]
+    background_color = "#021931"
+    background_darkness = 0.77
+    background_type = transparent
+    cursor_color = "#c4e9ff"
+    font = Source Code Variable Bold 13
+    foreground_color = "#dfd8f5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 10000000
+    palette = "#363636:#ff0883:#0dba9a:#ff8308:#8abeb7:#8308ff:#08ff83:#b6b6b6:#363636:#ff0883:#83ff08:#62a0ea:#0883ff:#49f9b7:#f8e45c:#b6b6b6"
+    use_system_font = False
+  [[nord]]
+    icon_bell = False
+    background_color = "#2e3440"
+    background_darkness = 0.86
+    background_type = transparent
+    cursor_color = "#D8DEE9"
+    font = Source Code Pro Heavy 12
+    foreground_color = "#D8DEE9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#aed4ca:#4c566a:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#c061cb:#6fd6bc:#708cba"
+    use_system_font = False
+  [[AdventureTime]]
+    background_color = "#1f1d45"
+    cursor_color = "#efbf38"
+    foreground_color = "#f8dcc0"
+    palette = "#050404:#bd0013:#4ab118:#e7741e:#0f4ac6:#665993:#70a598:#f8dcc0:#4e7cbf:#fc5f5a:#9eff6e:#efc11a:#1997c6:#9b5953:#c8faf4:#f6f5fb"
+  [[argonaut]]
+    cursor_color = "#aaaaaa"
+  [[Aurora]]
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = nord
+      command = ""
+[plugins]
