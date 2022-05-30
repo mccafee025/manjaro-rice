@@ -30,11 +30,10 @@
     use_system_font = False
   [[nord]]
     icon_bell = False
-    background_color = "#141c1e"
-    background_darkness = 0.9
+    background_darkness = 0.61
     background_type = transparent
     cursor_color = "#D8DEE9"
-    font = Source Code Pro Heavy 12
+    font = Source Code Pro Bold 11
     foreground_color = "#D8DEE9"
     show_titlebar = False
     scrollbar_position = hidden
@@ -50,6 +49,52 @@
     cursor_color = "#aaaaaa"
   [[Aurora]]
     cursor_color = "#aaaaaa"
+  [[Arthur]]
+    background_color = "#1c1c1c"
+    cursor_color = "#e2bbef"
+    foreground_color = "#ddeedd"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#3d352a:#cd5c5c:#86af80:#e8ae5b:#6495ed:#deb887:#b0c4de:#bbaa99:#554444:#cc5533:#88aa22:#ffa75d:#87ceeb:#996600:#b0c4de:#ddccbb"
+  [[Batman]]
+    background_color = "#1b1d1e"
+    cursor_color = "#fcef0c"
+    foreground_color = "#6f6f6f"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#1b1d1e:#e6dc44:#c8be46:#f4fd22:#737174:#747271:#62605f:#c6c5bf:#505354:#fff78e:#fff27d:#feed6c:#919495:#9a9a9d:#a3a3a6:#dadbd6"
+  [[Candy]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#AAAAAA"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#2e3436:#fa2573:#a6e32d:#fc951e:#c48dff:#fa2573:#67d9f0:#f2f2f2:#555753:#fa2573:#8ae234:#fce94f:#729fcf:#fa2573:#34e2e2:#eeeeec"
+  [[Dark Pastel]]
+    cursor_color = "#bbbbbb"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#000000:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#bbbbbb:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+  [[deep]]
+    background_color = "#090909"
+    cursor_color = "#d0d0d0"
+    foreground_color = "#cdcdcd"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#000000:#d70005:#1cd915:#d9bd26:#5665ff:#b052da:#50d2da:#e0e0e0:#535353:#fb0007:#22ff18:#fedc2b:#9fa9ff:#e09aff:#8df9ff:#ffffff"
+  [[ENCOM]]
+    cursor_color = "#bbbbbb"
+    foreground_color = "#00a595"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#000000:#9f0000:#008b00:#ffd000:#0081ff:#bc00ca:#008b8b:#bbbbbb:#555555:#ff0000:#00ee00:#ffff00:#0000ff:#ff00ff:#00cdcd:#ffffff"
+  [[Harper]]
+    background_color = "#010101"
+    cursor_color = "#a8a49d"
+    foreground_color = "#a8a49d"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#010101:#f8b63f:#7fb5e1:#d6da25:#489e48:#b296c6:#f5bfd7:#a8a49d:#726e6a:#f8b63f:#7fb5e1:#d6da25:#489e48:#b296c6:#f5bfd7:#fefbea"
 [layouts]
   [[default]]
     [[[window0]]]

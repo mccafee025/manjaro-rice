@@ -117,7 +117,7 @@ bindsym Mod4+Shift+minus move scratchpad
 bindsym Mod4+minus scratchpad show
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 
+set $ws1 [
 set $ws2 
 set $ws3 
 set $ws4 
@@ -184,10 +184,10 @@ assign [class="Thunar"] $ws3
 assign [class="VirtualBox Machine"] $ws5
 assign [class="VirtualBox Manager"] $ws5
 # class                 border  backgr. text    indicator child_border
-client.focused          #e9f7f3 #e9f7f3 #2e9ef4 #ffffff   #e9f7f3 
-client.focused_inactive #333333 #5f676a #ffffff 
-client.unfocused        #333333 #222222 #888888 #292d2e   #222222
-client.urgent           #7DA59C #900000 #ffffff #900000   #900000
+client.focused          #f87547 #e9f7f3 #2e9ef4 #f87547   #f87547
+client.focused_inactive #404040 #5f676a #ffffff #404040   #404040
+client.unfocused        #333333 #222222 #888888 #000000   #222222
+client.urgent           #7DA59C #900000 #ffffff #000000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
