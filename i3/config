@@ -183,6 +183,7 @@ assign [class="firefox"] $ws2
 assign [class="Thunar"] $ws3
 assign [class="VirtualBox Machine"] $ws5
 assign [class="VirtualBox Manager"] $ws5
+assign [class="supertuxkart"] $ws6
 # class                 border  backgr. text    indicator child_border
 client.focused          #e9f7f3 #e9f7f3 #2e9ef4 #e9f7f3   #e9f7f3
 client.focused_inactive #404040 #5f676a #ffffff #404040   #404040
