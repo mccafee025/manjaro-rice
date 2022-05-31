@@ -184,7 +184,7 @@ assign [class="Thunar"] $ws3
 assign [class="VirtualBox Machine"] $ws5
 assign [class="VirtualBox Manager"] $ws5
 # class                 border  backgr. text    indicator child_border
-client.focused          #f87547 #e9f7f3 #2e9ef4 #f87547   #f87547
+client.focused          #e9f7f3 #e9f7f3 #2e9ef4 #e9f7f3   #e9f7f3
 client.focused_inactive #404040 #5f676a #ffffff #404040   #404040
 client.unfocused        #333333 #222222 #888888 #000000   #222222
 client.urgent           #7DA59C #900000 #ffffff #000000   #900000

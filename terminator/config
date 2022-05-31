@@ -30,7 +30,8 @@
     use_system_font = False
   [[nord]]
     icon_bell = False
-    background_darkness = 0.61
+    background_color = "#201e23"
+    background_darkness = 0.67
     background_type = transparent
     cursor_color = "#D8DEE9"
     font = Source Code Pro Bold 11
@@ -38,7 +39,7 @@
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
-    palette = "#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#aed4ca:#4c566a:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#c0bfbc:#6fd6bc:#708cba"
+    palette = "#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#aed4ca:#4c566a:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#87f4f5:#6fd6bc:#708cba"
     use_system_font = False
   [[AdventureTime]]
     background_color = "#1f1d45"
