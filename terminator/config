@@ -7,7 +7,7 @@
   title_receive_bg_color = "#8FBCBB"
   title_inactive_fg_color = "#D8DEE9"
   title_inactive_bg_color = "#4C566A"
-  inactive_color_offset = 0.931129476584022
+  inactive_color_offset = 1.0
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
   always_split_with_profile = True
 [keybindings]
@@ -30,11 +30,11 @@
     use_system_font = False
   [[nord]]
     icon_bell = False
-    background_color = "#201e23"
-    background_darkness = 0.74
+    background_color = "#292929"
+    background_darkness = 0.83
     background_type = transparent
     cursor_color = "#D8DEE9"
-    font = Source Code Pro Bold 11
+    font = Source Code Variable Bold 11
     foreground_color = "#D8DEE9"
     show_titlebar = False
     scrollbar_position = hidden
