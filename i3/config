@@ -181,6 +181,7 @@ assign [class="vlc"] $ws4
 assign [class="Chromium"] $ws2
 assign [class="firefox"] $ws2
 assign [class="Thunar"] $ws3
+assign [class="qBittorrent"] $ws8
 assign [class="VirtualBox Machine"] $ws5
 assign [class="VirtualBox Manager"] $ws5
 assign [class="supertuxkart"] $ws6
