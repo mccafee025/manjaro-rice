@@ -43,7 +43,7 @@ visualizer.spectrum.bar.width=2
 
 ##The amount of space between each bar in the spectrum visualizer. Defaults to 1. It's possible to set this to
 ##zero to have no space between bars
-#visualizer.spectrum.bar.spacing=1
+visualizer.spectrum.bar.spacing=1
 
 ##Available smoothing options are monstercat, sgs, none.
 visualizer.spectrum.smoothing.mode=monstercat
@@ -59,8 +59,8 @@ visualizer.spectrum.falloff.weight=0.9
 ##Margins in percent of total screen for spectrum visualizer. All margins default to 0
 visualizer.spectrum.top.margin=0.50
 #visualizer.spectrum.bottom.margin=0.10
-#visualizer.spectrum.right.margin=0.10
-#visualizer.spectrum.left.margin=0.10
+visualizer.spectrum.right.margin=0
+visualizer.spectrum.left.margin=0
 
 ##Reverses the direction of the spectrum so that high freqs are first and low freqs last. Defaults to false.
 #visualizer.spectrum.reversed=false
