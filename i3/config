@@ -12,8 +12,10 @@ exec --no-startup-id picom
 exec --no-startup-id nitrogen --restore
 exec_always xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 exec_always autotiling
-exec terminator -T 
-exec_always firefox 
+exec terminator -T TERMINATOR
+exec firefox 
+exec qbittorrent
+exec thunar
 exec_always --no-startup-id /home/elliot/.config/polybar/launch.sh
 # layout, use the i3-config-wizard
 #smart_gaps on
@@ -63,11 +65,11 @@ set $right semicolon
 floating_modifier Mod4
 # start a terminal
 # bindsym Mod4+Return exec i3-sensible-terminal
-bindsym Mod4+Return exec terminator -T 
+bindsym Mod4+Return exec terminator -T TERMINATOR
 # kill focused window
 bindsym Mod4+Shift+q kill
 # start dmenu (a program launcher)
-#bindsym Mod4+d exec --no-startup-id dmenu_run
+bindsym Mod4+o exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 bindsym Mod4+d exec "rofi -show run"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -179,10 +181,11 @@ mode "resize" {
 }
 bindsym Mod4+r mode "resize"
 assign [class="vlc"] $ws4
-assign [class="mpv"] $ws4
+#assign [class="mpv"] $ws4
 assign [class="Chromium"] $ws2
 assign [class="firefox"] $ws2
 assign [class="Thunar"] $ws3
+assign [class="qbittorrent"] $ws8
 assign [class="qBittorrent"] $ws8
 assign [class="VirtualBox Machine"] $ws5
 assign [class="VirtualBox Manager"] $ws5

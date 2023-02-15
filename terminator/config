@@ -1,26 +1,18 @@
 [global_config]
   handle_size = 4
   extra_styling = False
-  title_transmit_fg_color = "#2E3440"
-  title_transmit_bg_color = "#88C0D0"
-  title_receive_fg_color = "#2E3440"
-  title_receive_bg_color = "#8FBCBB"
-  title_inactive_fg_color = "#D8DEE9"
-  title_inactive_bg_color = "#4C566A"
   inactive_color_offset = 1.0
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
   always_split_with_profile = True
 [keybindings]
 [profiles]
   [[default]]
-    cursor_color = "#aaaaaa"
     show_titlebar = False
     scrollback_infinite = True
   [[Aci]]
     background_color = "#021931"
     background_darkness = 0.77
     background_type = transparent
-    cursor_color = "#c4e9ff"
     font = Source Code Variable Bold 13
     foreground_color = "#dfd8f5"
     show_titlebar = False
@@ -30,68 +22,58 @@
     use_system_font = False
   [[nord]]
     icon_bell = False
-    background_color = "#15151c"
-    background_darkness = 0.93
+    background_color = "#15181e"
+    background_darkness = 0.9
     background_type = transparent
-    cursor_color = "#D8DEE9"
-    font = Inconsolata Heavy 12
+    font = Inconsolata Medium Condensed 15
     foreground_color = "#D8DEE9"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
     palette = "#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#656a69:#aed4ca:#4c566a:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#8089be:#6fd6bc:#708cba"
+    custom_command = source ~/.bashrc
     use_system_font = False
   [[AdventureTime]]
     background_color = "#1f1d45"
-    cursor_color = "#efbf38"
     foreground_color = "#f8dcc0"
     palette = "#050404:#bd0013:#4ab118:#e7741e:#0f4ac6:#665993:#70a598:#f8dcc0:#4e7cbf:#fc5f5a:#9eff6e:#efc11a:#1997c6:#9b5953:#c8faf4:#f6f5fb"
   [[argonaut]]
-    cursor_color = "#aaaaaa"
   [[Aurora]]
-    cursor_color = "#aaaaaa"
   [[Arthur]]
     background_color = "#1c1c1c"
-    cursor_color = "#e2bbef"
     foreground_color = "#ddeedd"
     show_titlebar = False
     scrollback_infinite = True
     palette = "#3d352a:#cd5c5c:#86af80:#e8ae5b:#6495ed:#deb887:#b0c4de:#bbaa99:#554444:#cc5533:#88aa22:#ffa75d:#87ceeb:#996600:#b0c4de:#ddccbb"
   [[Batman]]
     background_color = "#1b1d1e"
-    cursor_color = "#fcef0c"
     foreground_color = "#6f6f6f"
     show_titlebar = False
     scrollback_infinite = True
     palette = "#1b1d1e:#e6dc44:#c8be46:#f4fd22:#737174:#747271:#62605f:#c6c5bf:#505354:#fff78e:#fff27d:#feed6c:#919495:#9a9a9d:#a3a3a6:#dadbd6"
   [[Candy]]
-    cursor_color = "#aaaaaa"
     foreground_color = "#AAAAAA"
     show_titlebar = False
     scrollback_infinite = True
     palette = "#2e3436:#fa2573:#a6e32d:#fc951e:#c48dff:#fa2573:#67d9f0:#f2f2f2:#555753:#fa2573:#8ae234:#fce94f:#729fcf:#fa2573:#34e2e2:#eeeeec"
   [[Dark Pastel]]
-    cursor_color = "#bbbbbb"
     foreground_color = "#ffffff"
     show_titlebar = False
     scrollback_infinite = True
     palette = "#000000:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#bbbbbb:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
   [[deep]]
     background_color = "#090909"
-    cursor_color = "#d0d0d0"
     foreground_color = "#cdcdcd"
     show_titlebar = False
     scrollback_infinite = True
     palette = "#000000:#d70005:#1cd915:#d9bd26:#5665ff:#b052da:#50d2da:#e0e0e0:#535353:#fb0007:#22ff18:#fedc2b:#9fa9ff:#e09aff:#8df9ff:#ffffff"
   [[ENCOM]]
-    cursor_color = "#bbbbbb"
     foreground_color = "#00a595"
     show_titlebar = False
     scrollback_infinite = True
     palette = "#000000:#9f0000:#008b00:#ffd000:#0081ff:#bc00ca:#008b8b:#bbbbbb:#555555:#ff0000:#00ee00:#ffff00:#0000ff:#ff00ff:#00cdcd:#ffffff"
   [[Harper]]
     background_color = "#010101"
-    cursor_color = "#a8a49d"
     foreground_color = "#a8a49d"
     show_titlebar = False
     scrollback_infinite = True
